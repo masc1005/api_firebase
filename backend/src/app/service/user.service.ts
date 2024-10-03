@@ -1,7 +1,6 @@
 import { User } from "../dto/users.dto";
 import {
   signInWithEmailAndPassword,
-  signInWithEmailLink,
   createUserWithEmailAndPassword,
   sendEmailVerification,
   sendPasswordResetEmail,

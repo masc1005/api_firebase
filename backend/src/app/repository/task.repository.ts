@@ -12,7 +12,9 @@ export class TaskRepository {
       .collection("tasks")
       .where("id_user", "==", user_id)
       .get();
-    return task.docs.map((doc) => doc.data());
+    return task.docs.map((doc) => {
+      return { id: doc.id, ...doc.data() }; // Inclui o ID do documento
+    });
   }
 
   static async createTask(task: Tasks) {

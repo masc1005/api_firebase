@@ -24,4 +24,6 @@
 ## Overview do case técnico
 
 Primeiramente optei por não salvar o usuário no banco de dados ja que salva-lo no firebase authentication já gera um id unico para o usuário, sendo assim não vi a necessidade de criar uma coleção de usuários e salva-los lá.
-Optei também por instalar tanto o firebase admin quanto client, para ter mais liberdade e trabalhar com as duas libs dentro do projeto.
+
+
+Optei também por instalar tanto o firebase admin quanto client, para ter mais liberdade e trabalhar com as duas libs dentro do projeto.'
